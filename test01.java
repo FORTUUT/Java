@@ -23,6 +23,5 @@ public class test01 {
 			if(date.getDayOfWeek().getValue()==1)
 				System.out.println();
 		}
-        System.out.println("End");
 	}
 }
