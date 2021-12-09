@@ -3,8 +3,7 @@
 **********/
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-
-public class test01 {
+public class test {
 	public static void main(String[] arg) {
 		LocalDate date = LocalDate.now();
 		int month = date.getMonthValue();
@@ -26,5 +25,6 @@ public class test01 {
 			if(date.getDayOfWeek().getValue()==1)
 				System.out.println();
 		}
+		System.out.println();
 	}
 }
